@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ViewModel Sample</string>
+    <string name="reset_text">Reset</string>
+</resources>
