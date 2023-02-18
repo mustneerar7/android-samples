@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Navigation Component Sample</string>
+
+    <string name="galleryMessage">No recent posts</string>
+    <string name="gallery_fragment_title">Gallery</string>
+
+    <string name="ChatsMessage">No recent conversations</string>
+    <string name="chats_fragment_title">Chats</string>
+</resources>

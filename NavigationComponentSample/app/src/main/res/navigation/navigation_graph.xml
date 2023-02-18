@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/home2">
+
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.mony.navigationcomponentsample.Home"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home2_to_chats"
+            app:destination="@id/chats" />
+        <action
+            android:id="@+id/action_home2_to_gallery"
+            app:destination="@id/gallery" />
+    </fragment>
+    <fragment
+        android:id="@+id/chats"
+        android:name="com.mony.navigationcomponentsample.Chats"
+        android:label="@string/chats_fragment_title"
+        tools:layout="@layout/fragment_chats" />
+    <fragment
+        android:id="@+id/gallery"
+        android:name="com.mony.navigationcomponentsample.Gallery"
+        android:label="@string/gallery_fragment_title"
+        tools:layout="@layout/fragment_gallery" />
+</navigation>
