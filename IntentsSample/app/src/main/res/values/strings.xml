@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Intents sample</string>
+
+    <string name="explicit_intent">Launch Explicit Intent</string>
+    <string name="implicit_intent">Launch Implicit Intent</string>
+
+    <string name="explicit_intent_message">This activity was launched by an explicit intent.</string>
+</resources>
